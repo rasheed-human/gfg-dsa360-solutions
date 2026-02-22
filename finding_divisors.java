@@ -1,0 +1,15 @@
+class finding_divisors{
+	public static ArrayList<integer> Divisors(int n)
+	{
+	ArrayList<Integer>div=new ArrayList<>();
+	for(int i=1;i<=n;i++)
+	{
+	if(n%i==0)
+	{
+	div.add(i);
+	}
+      }
+return div;
+}
+}
+	
